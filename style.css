@@ -1,0 +1,51 @@
+h1 {
+    color: #7bdf1e;
+    border:dashed;
+    margin-left: 40px;
+    padding:20px
+}
+
+.heading2 a{
+    margin-left:20px;
+}
+
+.headingpart{
+    background-color: #8a2be2;
+    display:flex;
+    justify-content: space-between
+}
+
+.images{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:  wrap 
+}
+
+.pics{
+    display:flex;
+    justify-content: flex-end
+}
+
+a:link{
+    color:pink
+}
+
+a:visited{
+    color:greenyellow
+}
+
+.one {
+    position:relative
+}
+
+.one p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.one:hover p{
+    opacity:1;
+}
